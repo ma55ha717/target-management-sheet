@@ -3,6 +3,7 @@ import datetime
 import json
 import os
 import streamlit as st
+st.set_page_config(page_icon="icon.jpg")
 
 st.set_page_config(page_title="目標管理シート", layout="centered")
 
