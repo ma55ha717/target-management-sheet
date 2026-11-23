@@ -27,13 +27,13 @@
     "2026-11-2": {
         "goal": {
             "work": "夜勤 🌟(N) 17:15～8:30",
-            "plan_target": "い",
-            "target_time": 15,
-            "plan_other": "a",
-            "other_time": 15,
-            "exercise_plan": "a",
-            "ex_time": 5,
-            "ex_dist": 0.1,
+            "plan_target": "",
+            "target_time": 0,
+            "plan_other": "",
+            "other_time": 0,
+            "exercise_plan": "",
+            "ex_time": 0,
+            "ex_dist": 0.0,
             "alcohol": "飲む"
         }
     },
