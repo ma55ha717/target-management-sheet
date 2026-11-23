@@ -37,6 +37,19 @@
             "alcohol": "飲む"
         }
     },
+    "2026-11-23": {
+        "goal": {
+            "work": "夜勤 🌟(N) 17:15～8:30",
+            "plan_target": "過去問",
+            "target_time": 60,
+            "plan_other": "英語　duolingo",
+            "other_time": 30,
+            "exercise_plan": "ランニング",
+            "ex_time": 50,
+            "ex_dist": 7.0,
+            "alcohol": "飲まない"
+        }
+    },
     "meta": {
         "target_title": "情報セキリュティーマネージャーの取得",
         "target_deadline": "2027-03-31"
