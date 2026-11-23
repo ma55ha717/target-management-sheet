@@ -1,0 +1,44 @@
+{
+    "2026-11-1": {
+        "goal": {
+            "work": "日勤 🌞(D) 8:30～17:15",
+            "plan_target": "あ",
+            "target_time": 15,
+            "plan_other": "a",
+            "other_time": 15,
+            "exercise_plan": "a",
+            "ex_time": 5,
+            "ex_dist": 0.1,
+            "alcohol": "飲まない"
+        },
+        "result": {
+            "work": "日勤 🌞(D) 8:30～17:15",
+            "target_time": 15,
+            "other_time": 60,
+            "ex_time": 25,
+            "ex_dist": 3.0,
+            "alcohol": "飲んだ",
+            "target_achieved": true,
+            "other_achieved": true,
+            "ex_time_achieved": true,
+            "ex_dist_achieved": true
+        }
+    },
+    "2026-11-2": {
+        "goal": {
+            "work": "夜勤 🌟(N) 17:15～8:30",
+            "plan_target": "い",
+            "target_time": 15,
+            "plan_other": "a",
+            "other_time": 15,
+            "exercise_plan": "a",
+            "ex_time": 5,
+            "ex_dist": 0.1,
+            "alcohol": "飲む"
+        }
+    },
+    "meta": {
+        "target_title": "情報セキリュティーマネージャーの取得",
+        "target_deadline": "2027-03-31"
+    }
+}
