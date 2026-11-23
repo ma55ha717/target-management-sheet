@@ -63,6 +63,19 @@
             "alcohol": "飲まない"
         }
     },
+    "2026-11-25": {
+        "goal": {
+            "work": "休み 🙌(B)",
+            "plan_target": "",
+            "target_time": 0,
+            "plan_other": "",
+            "other_time": 0,
+            "exercise_plan": "",
+            "ex_time": 0,
+            "ex_dist": 0.0,
+            "alcohol": "飲まない"
+        }
+    },
     "meta": {
         "target_title": "情報セキリュティーマネージャーの取得",
         "target_deadline": "2027-03-31"
