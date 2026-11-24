@@ -90,13 +90,13 @@
     "2026-11-25": {
         "goal": {
             "work": "休み 🙌(B)",
-            "plan_target": "",
-            "target_time": 0,
-            "plan_other": "",
-            "other_time": 0,
-            "exercise_plan": "",
-            "ex_time": 0,
-            "ex_dist": 0.0,
+            "plan_target": "過去問",
+            "target_time": 90,
+            "plan_other": "英語　duolingo",
+            "other_time": 30,
+            "exercise_plan": "ウオーキング",
+            "ex_time": 60,
+            "ex_dist": 7.0,
             "alcohol": "飲まない"
         }
     },
