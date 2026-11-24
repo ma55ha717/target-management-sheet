@@ -73,6 +73,18 @@
             "ex_time": 45,
             "ex_dist": 6.0,
             "alcohol": "飲まない"
+        },
+        "result": {
+            "work": "明け 💤(ー) 次回勤務まで休み",
+            "target_time": 60,
+            "other_time": 30,
+            "ex_time": 53,
+            "ex_dist": 8.01,
+            "alcohol": "飲まなかった",
+            "target_achieved": true,
+            "other_achieved": true,
+            "ex_time_achieved": true,
+            "ex_dist_achieved": true
         }
     },
     "2026-11-25": {
