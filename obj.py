@@ -331,17 +331,32 @@ with tab_goal:
         is_selected = day == st.session_state.selected_day
         is_deadline = date_obj == target_deadline
 
-        btn_label = f"{day}日"
-        if is_deadline:
-            btn_label = f"🎯 {day}日"
+        # 予定・結果の入力状況を確認
+        day_data = st.session_state.data_store.get(
+            (selected_year, selected_month, day), {}
+        )
+        has_goal = bool(day_data.get("goal"))
+        has_result = bool(day_data.get("result"))
 
+        if has_result:
+            status_mark = " ✅"
+        elif has_goal:
+            status_mark = " 📝"
+        else:
+            status_mark = ""
+
+        # ボタンラベルと種類の決定
         if is_selected:
-            btn_label = f"👉 {day}日"
+            btn_label = f"👉 {day}日{status_mark}"
             btn_type = "primary"
+        elif is_deadline:
+            btn_label = f"🎯 {day}日{status_mark}"
+            btn_type = "secondary"
         elif is_today:
-            btn_label = f"⭐ {day}日"
+            btn_label = f"⭐ {day}日{status_mark}"
             btn_type = "secondary"
         else:
+            btn_label = f"{day}日{status_mark}"
             btn_type = "secondary"
 
         if cols[sun_start_idx].button(
@@ -353,6 +368,7 @@ with tab_goal:
             update_form_values(selected_year, selected_month, day)
             st.rerun()
 
+    st.caption("凡例：📝 予定あり ／ ✅ 結果入力済 ／ 🎯 目標期日 ／ ⭐ 今日")
     st.divider()
 
     target_day = st.session_state.selected_day
