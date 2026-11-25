@@ -98,6 +98,18 @@
             "ex_time": 60,
             "ex_dist": 7.0,
             "alcohol": "飲まない"
+        },
+        "result": {
+            "work": "休み 🙌(B)",
+            "target_time": 60,
+            "other_time": 45,
+            "ex_time": 337,
+            "ex_dist": 12.37,
+            "alcohol": "飲んだ",
+            "target_achieved": false,
+            "other_achieved": true,
+            "ex_time_achieved": true,
+            "ex_dist_achieved": true
         }
     },
     "2026-11-3": {
