@@ -12,11 +12,11 @@
             "alcohol": "飲まない"
         },
         "result": {
-            "work": "日勤 🌞(D) 8:30～17:15",
-            "target_time": 0,
-            "other_time": 0,
-            "ex_time": 0,
-            "ex_dist": 0.0,
+            "work": "夜勤 🌟(N) 17:15～8:30",
+            "target_time": 60,
+            "other_time": 30,
+            "ex_time": 51,
+            "ex_dist": 7.07,
             "alcohol": "飲まなかった",
             "target_achieved": true,
             "other_achieved": true,
