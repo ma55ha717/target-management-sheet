@@ -149,6 +149,18 @@
             "ex_time": 40,
             "ex_dist": 6.0,
             "alcohol": "飲む"
+        },
+        "result": {
+            "work": "夜勤 🌟(N) 17:15～8:30",
+            "target_time": 60,
+            "other_time": 30,
+            "ex_time": 51,
+            "ex_dist": 7.07,
+            "alcohol": "飲まなかった",
+            "target_achieved": true,
+            "other_achieved": true,
+            "ex_time_achieved": true,
+            "ex_dist_achieved": true
         }
     },
     "meta": {
